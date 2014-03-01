@@ -19,6 +19,9 @@
 		7B0DB39118C17122009621F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0DB37918C17122009621F8 /* UIKit.framework */; };
 		7B0DB39918C17122009621F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DB39718C17122009621F8 /* InfoPlist.strings */; };
 		7B0DB39B18C17122009621F8 /* JGBuyMeABeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DB39A18C17122009621F8 /* JGBuyMeABeerTests.m */; };
+		7B22119C18C1736A001B0EB1 /* JGARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B22119B18C1736A001B0EB1 /* JGARootViewController.m */; };
+		7B22119E18C1737C001B0EB1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B22119D18C1737C001B0EB1 /* CoreLocation.framework */; };
+		7B2211A218C17655001B0EB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2211A118C17655001B0EB1 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		7B0DB39618C17122009621F8 /* JGBuyMeABeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGBuyMeABeerTests-Info.plist"; sourceTree = "<group>"; };
 		7B0DB39818C17122009621F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B0DB39A18C17122009621F8 /* JGBuyMeABeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGBuyMeABeerTests.m; sourceTree = "<group>"; };
+		7B22119A18C1736A001B0EB1 /* JGARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGARootViewController.h; sourceTree = "<group>"; };
+		7B22119B18C1736A001B0EB1 /* JGARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGARootViewController.m; sourceTree = "<group>"; };
+		7B22119D18C1737C001B0EB1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7B2211A118C17655001B0EB1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B22119E18C1737C001B0EB1 /* CoreLocation.framework in Frameworks */,
 				7B0DB37818C17122009621F8 /* CoreGraphics.framework in Frameworks */,
 				7B0DB37A18C17122009621F8 /* UIKit.framework in Frameworks */,
 				7B0DB37618C17122009621F8 /* Foundation.framework in Frameworks */,
@@ -96,6 +104,7 @@
 		7B0DB37418C17122009621F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B22119D18C1737C001B0EB1 /* CoreLocation.framework */,
 				7B0DB37518C17122009621F8 /* Foundation.framework */,
 				7B0DB37718C17122009621F8 /* CoreGraphics.framework */,
 				7B0DB37918C17122009621F8 /* UIKit.framework */,
@@ -109,6 +118,9 @@
 			children = (
 				7B0DB38418C17122009621F8 /* JGAAppDelegate.h */,
 				7B0DB38518C17122009621F8 /* JGAAppDelegate.m */,
+				7B22119A18C1736A001B0EB1 /* JGARootViewController.h */,
+				7B22119B18C1736A001B0EB1 /* JGARootViewController.m */,
+				7B2211A118C17655001B0EB1 /* MainStoryboard.storyboard */,
 				7B0DB38718C17122009621F8 /* Images.xcassets */,
 				7B0DB37C18C17122009621F8 /* Supporting Files */,
 			);
@@ -220,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2211A218C17655001B0EB1 /* MainStoryboard.storyboard in Resources */,
 				7B0DB38018C17122009621F8 /* InfoPlist.strings in Resources */,
 				7B0DB38818C17122009621F8 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B0DB38218C17122009621F8 /* main.m in Sources */,
+				7B22119C18C1736A001B0EB1 /* JGARootViewController.m in Sources */,
 				7B0DB38618C17122009621F8 /* JGAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +458,7 @@
 				7B0DB3A018C17122009621F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B0DB3A118C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBuyMeABeerTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +467,7 @@
 				7B0DB3A318C17122009621F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
