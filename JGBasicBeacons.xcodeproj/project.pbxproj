@@ -35,20 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B0DB37218C17122009621F8 /* JGBuyMeABeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGBuyMeABeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0DB37218C17122009621F8 /* JGBasicBeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGBasicBeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0DB37518C17122009621F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B0DB37718C17122009621F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7B0DB37918C17122009621F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7B0DB37D18C17122009621F8 /* JGBuyMeABeer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGBuyMeABeer-Info.plist"; sourceTree = "<group>"; };
+		7B0DB37D18C17122009621F8 /* JGBasicBeacons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGBasicBeacons-Info.plist"; sourceTree = "<group>"; };
 		7B0DB37F18C17122009621F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B0DB38118C17122009621F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7B0DB38318C17122009621F8 /* JGBuyMeABeer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGBuyMeABeer-Prefix.pch"; sourceTree = "<group>"; };
+		7B0DB38318C17122009621F8 /* JGBasicBeacons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGBasicBeacons-Prefix.pch"; sourceTree = "<group>"; };
 		7B0DB38418C17122009621F8 /* JGAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAAppDelegate.h; sourceTree = "<group>"; };
 		7B0DB38518C17122009621F8 /* JGAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAAppDelegate.m; sourceTree = "<group>"; };
 		7B0DB38718C17122009621F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7B0DB38D18C17122009621F8 /* JGBuyMeABeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGBuyMeABeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0DB38D18C17122009621F8 /* JGBasicBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGBasicBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0DB38E18C17122009621F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7B0DB39618C17122009621F8 /* JGBuyMeABeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGBuyMeABeerTests-Info.plist"; sourceTree = "<group>"; };
+		7B0DB39618C17122009621F8 /* JGBasicBeaconsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGBasicBeaconsTests-Info.plist"; sourceTree = "<group>"; };
 		7B0DB39818C17122009621F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B0DB39A18C17122009621F8 /* JGBuyMeABeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGBuyMeABeerTests.m; sourceTree = "<group>"; };
 		7B22119A18C1736A001B0EB1 /* JGARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGARootViewController.h; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		7B0DB37318C17122009621F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B0DB37218C17122009621F8 /* JGBuyMeABeer.app */,
-				7B0DB38D18C17122009621F8 /* JGBuyMeABeerTests.xctest */,
+				7B0DB37218C17122009621F8 /* JGBasicBeacons.app */,
+				7B0DB38D18C17122009621F8 /* JGBasicBeaconsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,10 +130,10 @@
 		7B0DB37C18C17122009621F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B0DB37D18C17122009621F8 /* JGBuyMeABeer-Info.plist */,
+				7B0DB37D18C17122009621F8 /* JGBasicBeacons-Info.plist */,
 				7B0DB37E18C17122009621F8 /* InfoPlist.strings */,
 				7B0DB38118C17122009621F8 /* main.m */,
-				7B0DB38318C17122009621F8 /* JGBuyMeABeer-Prefix.pch */,
+				7B0DB38318C17122009621F8 /* JGBasicBeacons-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 		7B0DB39518C17122009621F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B0DB39618C17122009621F8 /* JGBuyMeABeerTests-Info.plist */,
+				7B0DB39618C17122009621F8 /* JGBasicBeaconsTests-Info.plist */,
 				7B0DB39718C17122009621F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B0DB37118C17122009621F8 /* JGBuyMeABeer */ = {
+		7B0DB37118C17122009621F8 /* JGBasicBeacons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B0DB39E18C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBuyMeABeer" */;
+			buildConfigurationList = 7B0DB39E18C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBasicBeacons" */;
 			buildPhases = (
 				7B0DB36E18C17122009621F8 /* Sources */,
 				7B0DB36F18C17122009621F8 /* Frameworks */,
@@ -171,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = JGBuyMeABeer;
+			name = JGBasicBeacons;
 			productName = JGBuyMeABeer;
-			productReference = 7B0DB37218C17122009621F8 /* JGBuyMeABeer.app */;
+			productReference = 7B0DB37218C17122009621F8 /* JGBasicBeacons.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B0DB38C18C17122009621F8 /* JGBuyMeABeerTests */ = {
+		7B0DB38C18C17122009621F8 /* JGBasicBeaconsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B0DB3A118C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBuyMeABeerTests" */;
+			buildConfigurationList = 7B0DB3A118C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBasicBeaconsTests" */;
 			buildPhases = (
 				7B0DB38918C17122009621F8 /* Sources */,
 				7B0DB38A18C17122009621F8 /* Frameworks */,
@@ -189,9 +189,9 @@
 			dependencies = (
 				7B0DB39318C17122009621F8 /* PBXTargetDependency */,
 			);
-			name = JGBuyMeABeerTests;
+			name = JGBasicBeaconsTests;
 			productName = JGBuyMeABeerTests;
-			productReference = 7B0DB38D18C17122009621F8 /* JGBuyMeABeerTests.xctest */;
+			productReference = 7B0DB38D18C17122009621F8 /* JGBasicBeaconsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B0DB36D18C17122009621F8 /* Build configuration list for PBXProject "JGBuyMeABeer" */;
+			buildConfigurationList = 7B0DB36D18C17122009621F8 /* Build configuration list for PBXProject "JGBasicBeacons" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B0DB37118C17122009621F8 /* JGBuyMeABeer */,
-				7B0DB38C18C17122009621F8 /* JGBuyMeABeerTests */,
+				7B0DB37118C17122009621F8 /* JGBasicBeacons */,
+				7B0DB38C18C17122009621F8 /* JGBasicBeaconsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		7B0DB39318C17122009621F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B0DB37118C17122009621F8 /* JGBuyMeABeer */;
+			target = 7B0DB37118C17122009621F8 /* JGBasicBeacons */;
 			targetProxy = 7B0DB39218C17122009621F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +377,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGBuyMeABeer/JGBuyMeABeer-Prefix.pch";
-				INFOPLIST_FILE = "JGBuyMeABeer/JGBuyMeABeer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "JGBuyMeABeer/JGBasicBeacons-Prefix.pch";
+				INFOPLIST_FILE = "JGBuyMeABeer/JGBasicBeacons-Info.plist";
+				PRODUCT_NAME = JGBasicBeacons;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +390,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGBuyMeABeer/JGBuyMeABeer-Prefix.pch";
-				INFOPLIST_FILE = "JGBuyMeABeer/JGBuyMeABeer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "JGBuyMeABeer/JGBasicBeacons-Prefix.pch";
+				INFOPLIST_FILE = "JGBuyMeABeer/JGBasicBeacons-Info.plist";
+				PRODUCT_NAME = JGBasicBeacons;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +413,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JGBuyMeABeerTests/JGBuyMeABeerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JGBuyMeABeerTests/JGBasicBeaconsTests-Info.plist";
+				PRODUCT_NAME = JGBasicBeaconsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -432,8 +432,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JGBuyMeABeer/JGBuyMeABeer-Prefix.pch";
-				INFOPLIST_FILE = "JGBuyMeABeerTests/JGBuyMeABeerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JGBuyMeABeerTests/JGBasicBeaconsTests-Info.plist";
+				PRODUCT_NAME = JGBasicBeaconsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -442,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B0DB36D18C17122009621F8 /* Build configuration list for PBXProject "JGBuyMeABeer" */ = {
+		7B0DB36D18C17122009621F8 /* Build configuration list for PBXProject "JGBasicBeacons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B0DB39C18C17122009621F8 /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B0DB39E18C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBuyMeABeer" */ = {
+		7B0DB39E18C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBasicBeacons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B0DB39F18C17122009621F8 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B0DB3A118C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBuyMeABeerTests" */ = {
+		7B0DB3A118C17122009621F8 /* Build configuration list for PBXNativeTarget "JGBasicBeaconsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B0DB3A218C17122009621F8 /* Debug */,
